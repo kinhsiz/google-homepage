@@ -2,23 +2,35 @@
 <head>
     <title>Google Homepage</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="file.css">
 </head>
 <body>
-    <div>
-        <nav>
-            <ul>
-                <li href="#">About</li>
-                <li href="#">Store</li>
-                <li href="#">Gmail</li>
-                <li href="#">Images</li>    
-            </ul>
-        </nav>
-    </div>
+        <div class="topnav">
+                <a href="#about">About</a>
+                <a href="#store">Store</a>
+                <a href="#gmail">Gmail</a>
+                <a href="#images">Images</a>
+        </div>
+
     <div>
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
         <input type="text">
         <button type="button" class="btn-google-search">Google Search</button>
         <button type="button" class="btn-feeling-lucky">I'm Feeling Lucky</button>
     </div>
+    <nav class="bottomnav">
+        <div id="nav-bottom-left">
+            <a href="#advertising">Advertising</a>
+            <a href="#business">Business</a>
+        </div>
+        <div id="nav-bottom-center">
+            <a href="#how-search-works">How Search Works</a>
+        </div>
+        <div id="nav-bottom-right">
+            <a href="#privacy">Privacy</a>
+            <a href="Terms">Terms</a>
+            <a href="Settings">Settings</a>
+        </div>
+    </nav>
 </body>

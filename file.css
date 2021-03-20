@@ -1,0 +1,24 @@
+
+.topnav a {
+    margin-top: 11px;
+    padding: 4px;
+}
+.topnav {
+    background-color: pink;
+    height: 50px;
+}
+/*select the last two items*/
+.topnav a:nth-child(n + 3) {
+    float: right;
+}
+
+.bottomnav {
+    position: absolute;
+    bottom: 0;
+    background-color: pink;
+    width: 100%;
+}
+
+div img {
+
+}
