@@ -1,23 +1,37 @@
-.topnav a {
+
+/******TOPNAV*********/
+.topnav-left {
     margin-top: 11px;
-    padding: 4px;
-}
-.topnav {
-    background-color: pink;
-    height: 50px;
-}
-/*select the last two items*/
-.topnav a:nth-child(n + 3) {
-    float: right;
+    width: 50%;
 }
 
-.bottomnav {
+.topnav-right {
+    width: 45%;
     position: absolute;
-    bottom: 0;
-    background-color: pink;
-    width: 100%;
+    top: 0;
+    right: 0;
+    margin-top: 11px;
+   
 }
 
+.topnav-right > a {
+    float: right;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.topnav-left > a {
+    margin-left: 5px;
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+/*select the last two items*/
+/*.topnav a:nth-child(n + 3) {
+    float: right;
+} */
+
+/******ICON,TEXTBAR & BUTTONS***********/
 .image-bar-btn { 
     text-align: center; /*places icon, text bar, and buttons at center of div*/  
     margin: 0 auto;
@@ -26,7 +40,7 @@
 }
 
 .image-bar-btn > img {
-    width: 400px;
+    width: 300px;
   
 }
 .image-bar-btn input {
@@ -54,4 +68,11 @@
     background-color: #f8f9fa;
 }
 
+/*********BOTTOMNAV***********/
+.bottomnav {
+    position: absolute;
+    bottom: 0;
+    background-color: pink;
+    width: 100%;
+}
 
