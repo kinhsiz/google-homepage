@@ -1,4 +1,8 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /******TOPNAV*********/
 .topnav-left {
     margin-top: 11px;
@@ -10,20 +14,21 @@
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 11px;
-   
+    margin-top: 11px; 
 }
 
 .topnav-right > a {
     float: right;
     margin-right: 8px;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .topnav-left > a {
     margin-left: 5px;
     font-size: 14px;
     margin-left: 14px;
+    text-decoration: none;
 }
 
 /*select the last two items*/
@@ -72,7 +77,32 @@
 .bottomnav {
     position: absolute;
     bottom: 0;
-    background-color: pink;
     width: 100%;
+    
 }
 
+.bottomnav > #nav-bottom-center {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bottomnav > #nav-bottom-right {
+    float: right;
+    margin-top: -18px;
+    margin-right: 15px;
+}
+
+.bottomnav > #nav-bottom-left {
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+ #nav-bottom-right a, #nav-bottom-left  a {
+    margin: 5px;
+ }
+
+ #nav-bottom-right a, #nav-bottom-left a,  #nav-bottom-center a {
+     font-size: 14px;
+     text-decoration: none;
+ }
